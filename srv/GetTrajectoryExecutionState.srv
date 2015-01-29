@@ -1,0 +1,11 @@
+# no parameters
+---
+
+# Error code - encodes the overall reason for failure
+MoveItErrorCodes error_code
+
+# state of controller
+moveit_msgs/MoveItControllerExecutionState controller_execution_state
+
+# trajectory execution complete
+bool trajectory_execution_complete

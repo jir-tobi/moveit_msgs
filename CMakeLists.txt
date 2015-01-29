@@ -52,6 +52,7 @@ VisibilityConstraint.msg
 WorkspaceParameters.msg
 KinematicSolverInfo.msg
 PositionIKRequest.msg
+MoveItControllerExecutionState.msg
 )
 
 set(SRV_FILES
@@ -67,6 +68,7 @@ GetPositionFK.srv
 GetPositionIK.srv
 SaveMap.srv
 LoadMap.srv
+GetTrajectoryExecutionState.srv
 )
 
 set(ACT_FILES
