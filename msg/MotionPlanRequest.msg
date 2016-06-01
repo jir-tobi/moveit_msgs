@@ -40,3 +40,4 @@ float64 allowed_planning_time
 # (imporantly, this includes it being set to 0.0), the factor is set to a
 # default value of 1.0 internally (i.e. maximum joint velocity)
 float64 max_velocity_scaling_factor
+float64 max_acceleration_scaling_factor
